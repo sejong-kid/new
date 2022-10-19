@@ -16,10 +16,37 @@ html {
 
 .box {
   float: none;
+  margin-top: 30px;
   position: relative;
-  width: 300PX;
+  width: 100%;
   height: 47px;
-  border: 3px solid #4ac6ff;
+  border: none;
   border-radius: 1px;
-  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 5%);
+  box-shadow: 1px 5px 20px 0 rgba(128, 140, 255, 0.526);
+}
+.box:hover{
+  border: none;
+  outline: 0;
+  scale: 30px;
+}
+.btn {
+  float: right;
+  width: 80px;
+  height: 47px;
+  margin-left: 5px;
+  margin-top: 30px;
+  position: absolute;
+  background-color: transparent;
+  border: 2px solid rgba(60, 0, 255, 0.472) ;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  
+}
+.btn:hover{
+  scale: 95%;
+  background-color: rgb(139, 38, 255);
+  border-color: rgba(60, 0, 255, 0.472) ;
+  color:rgba(60, 0, 255, 0.472);
+  letter-spacing: 5px;
 }
