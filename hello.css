@@ -27,7 +27,7 @@ html {
 .box:hover{
   border: none;
   outline: 0;
-  scale: 30px;
+  scale: 30px;  
 }
 .btn {
   float: right;
@@ -36,17 +36,24 @@ html {
   margin-left: 5px;
   margin-top: 30px;
   position: absolute;
-  background-color: transparent;
-  border: 2px solid rgba(60, 0, 255, 0.472) ;
+  background-color: rgba(60, 0, 255, 0.678) ;
+  border: none;
   text-align: center;
   color: white;
   font-size: 20px;
-  
+  background:linear-gradient(
+    #000000,
+    #37004d,
+    #690161,
+    #810070
+    
+  );
 }
 .btn:hover{
-  scale: 95%;
-  background-color: rgb(139, 38, 255);
-  border-color: rgba(60, 0, 255, 0.472) ;
-  color:rgba(60, 0, 255, 0.472);
-  letter-spacing: 5px;
+  scale: 98%;
+  background-color: rg(0, 0, 255, 0.678);
+  border: none;
+  border-color: rgba(0, 0, 255, 0.678) ;
+  color:rgb(255, 255, 255);
+  letter-spacing: 1px;
 }
