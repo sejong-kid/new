@@ -1,0 +1,25 @@
+body {
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+  padding: 0 auto;
+  display: inline;
+  white-space: nowrap;
+}
+
+html {
+  background-color: rgb(255, 255, 255) ;
+}
+
+.box {
+  float: none;
+  position: relative;
+  width: 300PX;
+  height: 47px;
+  border: 3px solid #4ac6ff;
+  border-radius: 1px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 5%);
+}
