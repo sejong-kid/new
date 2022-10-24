@@ -1,32 +1,88 @@
-body {
-  width: 500px;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-ul{list-style: none;}
-li{
-  float: left;
+h1 {
   text-align: center;
-  margin-right: 30px;
-  margin-bottom: 15px;
+  width: 0 auto;
+  font-size: 100px;
+  margin-left: 0;
 }
-button{
-  width: 80px;
-  height: 80px;
+
+nav {
+  text-align: center;
+  margin-top: -50px;
+  font-size: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+li {
+  display: inline-block;
+}
+
+body {
+  width: 480px;
+  margin: 0 auto;
+  background: #EEE;
+}
+
+main {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  width: 90px;
+  height: 90px;
+  margin-left: 50px;
+  margin-bottom: 30px;
   border: none;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.374);
   transition: all 0.2s linear;
 }
-.btn button:after{
+
+.btn button:after {
   content: '눌러줭';
 }
 
-.btn button:hover{
-transform: scale(1.2);
+.btn button:hover {
+  transform: scale(1.2);
 }
-.btn button:hover:after{
-  
-content: '꺄아';
+
+.btn button:hover:after {
+  content: '꺄아';
+}
+
+
+.no1{
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.363);
+  column-count: 5;
+}
+
+li .no1{
+  display: block;
+  text-align: center;
+  width: 0 auto;
+  margin-left: 0;
+}
+li{
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 6PX;
+}
+
+.select1{
+  text-align: center;
+  width: 0 auto;
+  background-color: aquamarine;
+
 }
