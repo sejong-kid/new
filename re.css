@@ -3,18 +3,14 @@ h1 {
   width: 0 auto;
   font-size: 100px;
   margin-left: 0;
+  color: white;
+  text-shadow: 3px 3px 30px rgba(255, 255, 255, 0.5);
 }
 
 nav {
   text-align: center;
   margin-top: -50px;
   font-size: 20px;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-  margin-left: 30px;
 }
 
 li {
@@ -24,8 +20,41 @@ li {
 body {
   width: 480px;
   margin: 0 auto;
-  background: #EEE;
+  background: linear-gradient(
+    to top,
+    #00aaff,
+    #0099e6,
+    #0088cc,
+    #0077b3,
+    #006699,
+    #005580,
+    #004466,
+    #00334d    
+    );
 }
+.menu a{
+  text-align: center;
+  margin-right: 15px;
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px black;
+}
+.menu1 a:hover {
+  transition: 0.9s;
+  color:rgb(255, 61, 61);}
+
+.menu2 a:hover {
+  background: linear-gradient(
+    #ffe591,
+    #ffdf2c,
+    #ff8800);
+  border-radius: 5px;
+  color : white;
+  transition : 3s;
+}
+a:visited{
+  color: none}
 
 main {
   text-align: center;
@@ -40,7 +69,7 @@ button {
   height: 90px;
   margin-left: 50px;
   margin-bottom: 30px;
-  border: none;
+  border: 10px solid white;
   border-radius: 10px;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.374);
   transition: all 0.2s linear;
@@ -60,29 +89,9 @@ button {
 
 
 .no1{
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.363);
   column-count: 5;
 }
 
-li .no1{
-  display: block;
-  text-align: center;
-  width: 0 auto;
-  margin-left: 0;
-}
-li{
-  text-align: center;
-  -webkit-tap-highlight-color: transparent;
-  align-items: center;
-  border-radius: 4px;
-  box-sizing: border-box;
-  justify-content: center;
-  padding: 6PX;
-}
-
-.select1{
-  text-align: center;
-  width: 0 auto;
-  background-color: aquamarine;
-
+div .no1{
+  margin-left: -200px;
 }
