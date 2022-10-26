@@ -1,0 +1,209 @@
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  width: 0 auto;
+  font-size: 100px;
+  margin-left: 0;
+  color: white;
+  text-shadow: 3px 3px 30px rgba(255, 255, 255, 0.5);
+}
+nav {
+  margin-top: -50px;
+}
+
+ul {
+  list-style: none;
+}
+
+
+li {
+  display: inline-block;
+}
+body {
+  width: 480px;
+  margin: 0 auto;
+  background: linear-gradient(
+    to top,
+    #00aaff,
+    #0099e6,
+    #0088cc,
+    #0077b3,
+    #006699,
+    #005580,
+    #004466,
+    #00334d    
+    );
+}
+.menu a{
+  float: left;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: 15px;
+  font-size: 23px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px black;
+}
+.menu1 a:hover {
+  transition: 0.9s;
+  color:rgb(255, 61, 61);}
+
+.menu2 a:hover {
+  width: 120px;
+  background: linear-gradient(
+    #ff5643,
+    #ff8630,
+    #ffffff);
+  border-radius: 15px;
+  color : white;
+  transition : 1s;
+}
+
+.menu3 a:hover {
+  transition: all 0.2s linear;
+  transform: rotate(370deg);
+}
+a:visited{
+  color: none}
+
+main {
+  text-align: center;
+}
+
+
+button {
+  width: 90px;
+  height: 90px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  border: 10px solid white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.374);
+  transition: all 0.2s linear;
+}
+
+.btn button:after {
+  color: rgb(34, 34, 34);
+  content: '(ว˙∇˙)ง';
+}
+
+.btn button:hover {
+  transform: scale(1.2);
+}
+
+.btn button:hover:after {
+  color: rgb(136, 255, 0);
+  content: '⸜(*ˊᗜˋ*)⸝';
+  text-shadow: 1px 1px 5px rgb(239, 255, 147);
+}
+
+
+.no1{
+  column-count: 5;
+}
+
+div .no1{
+  margin-left: -200px;
+}
+
+#bt1 {
+  background: #00A5E3;}
+#bt11 {
+  background: #FC6238;}
+#bt21 {
+  background: #C05780;}
+#bt31 {
+  background: #00CDAC;}
+#bt41 {
+  background: #FF6F68;}
+#bt2 {
+  background: #FF828B;}
+#bt12 {
+  background: #FFD872;}
+#bt22 {
+  background: #8DD7BF}
+#bt32 {
+  background: #FF96C5;}
+#bt42 {
+  background: #F2D4CC;}
+#bt3 {
+  background: #E7C582;}
+#bt13 {
+  background:	#FFDACC;}
+#bt23 {
+  background: #FF5768;}
+#bt33 {
+  background: #E77577;}
+#bt43 {
+  background: #00B0BA;}
+#bt4 {
+  background: #FF60A8;}
+#bt14 {
+  background: #FFBF65;}
+#bt24 {
+  background: #6C88C4}
+#bt34 {
+  background: #0065A2;}
+#bt44 {
+  background: #CFF800;}
+#bt5 {
+  background: #6E7B8F}
+#bt15 {
+  background: #CAB3C1;}
+#bt25 {
+  background: #FFEDDA;}
+#bt35 {
+  background: #FFDAD1;}
+#bt45 {
+  background: #50B4D8;}
+#bt6 {
+  background: #9EDDEF;}
+#bt16 {
+  background: #F7E5B7;}
+#bt26 {
+  background: #D7E2EA;}
+#bt36 {
+  background: #96B3C2;}
+#bt46 {
+  background: #FFEFFF;}
+#bt7 {
+  background: #F6F7FB}
+#bt17 {
+  background: #E0F8F5;}
+#bt27 {
+  background: #BEEDE5;}
+#bt37 {
+  background: #A7D9C9;}
+#bt47 {
+  background: #CCADB2;}
+#bt8 {
+  background: #F3BFB3;}
+#bt18 {
+  background: #B4C9C7;}
+#bt28 {
+  background: #57838D;}
+#bt38 {
+  background: #445A67;}
+#bt48 {
+  background: #53CFDA;}
+#bt9 {
+  background: #EFF2E6;}
+#bt19 {
+  background: #FF7994;}
+#bt29 {
+  background: #FFC900;}
+#bt39 {
+  background: #1F3D51;}
+#bt49 {
+  background: #DDF5C2;}
+#bt10 {
+  background: #FFED00;}
+#bt20 {
+  background: #EF39A7;}
+#bt30 {
+  background: #FFAE90;}
+#bt40 {
+  background: #2494CC;}
+#bt50 {
+  background: #ECF7DD;}
