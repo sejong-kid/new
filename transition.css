@@ -1,0 +1,177 @@
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  width: 0 auto;
+  font-size: 100px;
+  margin-left: 0;
+  color: white;
+  text-shadow: 3px 3px 30px rgba(255, 255, 255, 0.5);
+}
+nav {
+  margin-top: -50px;
+}
+
+ul {
+  list-style: none;
+}
+
+
+li {
+  display: inline-block;
+}
+body {
+  width: 480px;
+  margin: 0 auto;
+  background: linear-gradient(
+    to top,
+    #00aaff,
+    #0099e6,
+    #0088cc,
+    #0077b3,
+    #006699,
+    #005580,
+    #004466,
+    #00334d    
+    );
+}
+.menu a{
+  float: left;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: 15px;
+  font-size: 23px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px black;
+}
+.menu1 a:hover {
+  transition: 0.9s;
+  color:rgb(255, 61, 61);}
+
+.menu2 a:hover {
+  width: 120px;
+  background: linear-gradient(
+    #ff5643,
+    #ff8630,
+    #ffffff);
+  border-radius: 15px;
+  color : white;
+  transition : 1s;
+}
+
+.menu3 a:hover {
+  transition: all 0.2s linear;
+  transform: rotate(370deg);
+}
+a:visited{
+  color: none}
+
+main {
+  text-align: center;
+}
+
+
+button {
+  width: 90px;
+  height: 90px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  border: 7px solid white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.374);
+  transition: all 0.2s linear;
+}
+
+.btn button:after {
+  font-size: 20px;
+  color: rgb(34, 34, 34);
+  content: 'ᐠ( ᑒ  )ᐟ';
+}
+
+.btn button:hover {
+  transform: scale(1.2);
+}
+
+.btn button:hover:after {
+  font-size: 20px;
+  color: rgb(10, 10, 10);
+  content: '(•ิ_•ิ)?';
+}
+
+
+.no1{
+  column-count: 5;
+}
+
+div .no1{
+  margin-left: -200px;
+}
+
+#tbt01 {
+  transition: all 0.2s linear; background-color: rgb(255, 255, 255);
+
+  &:hover {
+    transform: scale(.9);
+  }
+}
+#tbt01:hover {background-color: lightblue; transform: scale(.9);}
+#tbt11 {transition: all 0.2s linear;}
+#tbt11:hover {transform:scale(.9); animation: pulse-animation 2s infinite;}
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+  }
+}
+#tbt21 {  transition: all 0.2s linear;}
+#tbt31 {  transition: all 0.2s linear;}
+#tbt41 {  transition: all 0.2s linear;}
+#tbt02 {  transition: all 0.2s linear;}
+#tbt12 {  transition: all 0.2s linear;}
+#tbt22 {  transition: all 0.2s linear;}
+#tbt32 {  transition: all 0.2s linear;}
+#tbt42 {  transition: all 0.2s linear;}
+#tbt03 {  transition: all 0.2s linear;}
+#tbt13 {  transition: all 0.2s linear;}
+#tbt23 {  transition: all 0.2s linear;}
+#tbt33 {  transition: all 0.2s linear;}
+#tbt43 {  transition: all 0.2s linear;}
+#tbt04 {  transition: all 0.2s linear;}
+#tbt14 {  transition: all 0.2s linear;}
+#tbt24 {  transition: all 0.2s linear;}
+#tbt34 {  transition: all 0.2s linear;}
+#tbt44 {  transition: all 0.2s linear;}
+#tbt05 {  transition: all 0.2s linear;}
+#tbt15 {  transition: all 0.2s linear;}
+#tbt25 {  transition: all 0.2s linear;}
+#tbt35 {  transition: all 0.2s linear;}
+#tbt45 {  transition: all 0.2s linear;}
+#tbt06 {  transition: all 0.2s linear;}
+#tbt16 {  transition: all 0.2s linear;}
+#tbt26 {  transition: all 0.2s linear;}
+#tbt36 {  transition: all 0.2s linear;}
+#tbt46 {  transition: all 0.2s linear;}
+#tbt07 {  transition: all 0.2s linear;}
+#tbt17 {  transition: all 0.2s linear;}
+#tbt27 {  transition: all 0.2s linear;}
+#tbt37 {  transition: all 0.2s linear;}
+#tbt47 {  transition: all 0.2s linear;}
+#tbt08 {  transition: all 0.2s linear;}
+#tbt18 {  transition: all 0.2s linear;}
+#tbt28 {  transition: all 0.2s linear;}
+#tbt38 {  transition: all 0.2s linear;}
+#tbt48 {  transition: all 0.2s linear;}
+#tbt09 {  transition: all 0.2s linear;}
+#tbt19 {  transition: all 0.2s linear;}
+#tbt29 {  transition: all 0.2s linear;}
+#tbt39 {  transition: all 0.2s linear;}
+#tbt49 {  transition: all 0.2s linear;}
+#tbt10 {  transition: all 0.2s linear;}
+#tbt20 {  transition: all 0.2s linear;}
+#tbt30 {  transition: all 0.2s linear;}
+#tbt40 {  transition: all 0.2s linear;}
+#tbt50 {  transition: all 0.2s linear;}
+    
