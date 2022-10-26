@@ -85,7 +85,7 @@ button {
 
 .btn button:after {
   color: rgb(34, 34, 34);
-  content: '(ว˙∇˙)ง';
+  content: '( ˶˙ᵕ˙˶ )';
 }
 
 .btn button:hover {
@@ -93,9 +93,9 @@ button {
 }
 
 .btn button:hover:after {
-  color: rgb(136, 255, 0);
-  content: '⸜(*ˊᗜˋ*)⸝';
-  text-shadow: 1px 1px 5px rgb(239, 255, 147);
+  color: rgb(10, 10, 10);
+  content: '(*ˊᵕˋ*)ﾉ';
+  text-shadow: 3px 3px 10px rgb(255, 255, 255);
 }
 
 
@@ -110,8 +110,8 @@ div .no1{
 #gbt1 {
   background: linear-gradient(
     160deg,
-    #FDEB71,
-    #F8D800
+    #fff4ab,
+    #f8cb00
     
   );}
 #gbt11 {
