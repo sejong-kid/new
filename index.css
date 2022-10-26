@@ -1,0 +1,162 @@
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  width: 0 auto;
+  font-size: 100px;
+  margin-left: 0;
+  color: white;
+  text-shadow: 3px 3px 30px rgba(255, 255, 255, 0.5);
+}
+nav {
+  margin-top: -50px;
+}
+
+ul {
+  list-style: none;
+}
+
+
+li {
+  display: inline-block;
+}
+body {
+  width: 480px;
+  margin: 0 auto;
+  background: linear-gradient(
+    to top,
+    #00aaff,
+    #0099e6,
+    #0088cc,
+    #0077b3,
+    #006699,
+    #005580,
+    #004466,
+    #00334d    
+    );
+}
+.menu a{
+  float: left;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-right: 15px;
+  font-size: 23px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px black;
+}
+.menu1 a:hover {
+  transition: 0.9s;
+  color:rgb(255, 61, 61);}
+
+.menu2 a:hover {
+  width: 120px;
+  background: linear-gradient(
+    #ff5643,
+    #ff8630,
+    #ffffff);
+  border-radius: 15px;
+  color : white;
+  transition : 1s;
+}
+
+.menu3 a:hover {
+  transition: all 0.2s linear;
+  transform: rotate(370deg);
+}
+a:visited{
+  color: none}
+
+main {
+  text-align: center;
+}
+
+
+button {
+  width: 90px;
+  height: 90px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  border: 7px solid white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.374);
+  transition: all 0.2s linear;
+}
+
+.btn button:after {
+  font-size: 30px;
+  color: rgb(34, 34, 34);
+  content: 'ᴗ.ᴗ';
+}
+
+.btn button:hover {
+  transform: scale(1.2);
+}
+
+.btn button:hover:after {
+  font-size: 20px;
+  color: rgb(10, 10, 10);
+  content: 'ː̗̀(☉.☉)ː̖́';
+  text-shadow: 3px 3px 10px rgb(255, 255, 255);
+}
+
+
+.no1{
+  column-count: 5;
+}
+
+div .no1{
+  margin-left: -200px;
+}
+
+#bt01 {background:#71c7e2;}
+#bt11 {background:#23afd6;}
+#bt21 {background:#d5b60d;}
+#bt31 {background:#e1ce60;}
+#bt41 {background:#ffb0b9;}
+#bt02 {background:#f19195;}
+#bt12 {background:#f59138;}
+#bt22 {background:#f6cfb8;}
+#bt32 {background:#b4dce1;}
+#bt42 {background:#b8de9a;}
+#bt03 {background:#eec151;}
+#bt13 {background:#f4ad84;}
+#bt23 {background:#f1815c;}
+#bt33 {background:#f16a40;}
+#bt43 {background:#71b578;}
+#bt04 {background:#bfe2d6;}
+#bt14 {background:#8ad1ba;}
+#bt24 {background:#cfa0be;}
+#bt34 {background:#ad5b8f;}
+#bt44 {background:#999fc1;}
+#bt05 {background:#c4c8db;}
+#bt15 {background:#d4dfe3;}
+#bt25 {background:#717fb6;}
+#bt35 {background:#3d4a81;}
+#bt45 {background:#ac90bb;}
+#bt06 {background:#815799;}
+#bt16 {background:#95d4a3;}
+#bt26 {background:#96d2cf;}
+#bt36 {background:#63b8b3;}
+#bt46 {background:#f9a2bf;}
+#bt07 {background:#fade7d;}
+#bt17 {background:#ef553c;}
+#bt27 {background:#589651;}
+#bt37 {background:#a4bf43;}
+#bt47 {background:#3e9399;}
+#bt08 {background:#df5970;}
+#bt18 {background:#508ab2;}
+#bt28 {background:#ecdcc5;}
+#bt38 {background:#d2cfc8;}
+#bt48 {background:#b19c89;}
+#bt09 {background:#cdae3b;}
+#bt19 {background:#48959f;}
+#bt29 {background:#569673;}
+#bt39 {background:#ae3d3b;}
+#bt49 {background:#8a4f7f;}
+#bt10 {background:#d5a5a0;}
+#bt20 {background:#e0ba81;}
+#bt30 {background:#c8702c;}
+#bt40 {background:#3d4766;}
+#bt50 {background:#b33360;}
+    
