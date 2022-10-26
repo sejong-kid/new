@@ -84,8 +84,9 @@ button {
 }
 
 .btn button:after {
+  font-size: 30px;
   color: rgb(34, 34, 34);
-  content: '( ˶˙ᵕ˙˶ )';
+  content: '˘﹃˘';
 }
 
 .btn button:hover {
@@ -93,9 +94,10 @@ button {
 }
 
 .btn button:hover:after {
+  font-size: 20px;
   color: rgb(10, 10, 10);
-  content: '(*ˊᵕˋ*)ﾉ';
-  text-shadow: 3px 3px 10px rgb(255, 255, 255);
+  content: '˃̵ࡇ˂̵';
+  text-shadow: 1px 1px 10px rgb(255, 255, 255);
 }
 
 
