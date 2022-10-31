@@ -111,9 +111,6 @@ div .no1{
 #tbt01 {
   transition: all 0.2s linear; background-color: rgb(255, 255, 255);
 
-  &:hover {
-    transform: scale(.9);
-  }
 }
 #tbt01:hover {background-color: lightblue; transform: scale(.9);}
 #tbt11 {transition: all 0.2s linear;}
