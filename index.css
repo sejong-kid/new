@@ -8,6 +8,13 @@ h1 {
   text-shadow: 3px 3px 30px rgba(255, 255, 255, 0.5);
 }
 @media (max-width: 500px) {
+  button{
+    width: 3em;
+    height: 3em;
+  }
+  .no1{
+    column-count: 3;
+  }
 }
 nav {
   margin-top: -50px;
